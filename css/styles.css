@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.header{
+    background: #121358;
+    background: linear-gradient(180deg, #121358 0%, #232F72 50%);
+    padding: 1rem;
+}
+
+.main{
+    background: #232F72;
+    background: linear-gradient(180deg, #232F72 0%, #2F578A 50%);
+    padding: 1rem;
+
+}
+
+.footer{
+    background: #2F578A;
+    background: linear-gradient(180deg, #2F578A 0%, #36ADA3 50%);
+    padding: 1rem;
+}
+
+.colores{
+    padding: 1rem;
+}
+
+.boton{
+    padding: 1rem;
+}
