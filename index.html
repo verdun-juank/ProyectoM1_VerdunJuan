@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +8,30 @@
 </head>
 <body>
   <header class="header">
-<div>
-    <h1>Generador de paletas</h1>
-    <p>Generador de paletas interactivo</p>
-</div>
+    <div>
+      <h2>Bienvenido</h2>
+      <p>Generador de paletas interactivo</p>
+    </div>
+
   </header>
 
-  <main class="main">
-    <select class="colores" id="selector">
-        <option value="6-colores">6 colores</option>
-        <option value="8-colores">8 colores</option>
-        <option value="9-colores">9 colores</option>
-    </select>
-    <button class="boton" id="button">Generar paletas</button>
+  <main class="contenedor">
+
+    <h1>Generador de paletas</h1>
+    <div class="controles">
+      <select class="colores" id="selector">
+        <option value="6">6 colores</option>
+        <option value="8">8 colores</option>
+        <option value="9">9 colores</option>
+      </select>
+
+      <button class="boton" id="button">Generar paletas</button>
+    </div>
+        
+    <h2>Paletas</h2>
+    <div class="paleta" id="paleta">          
+    <!-- Los colores se generan mediante JavaScript -->
+    </div>
   </main>
 
   <footer class="footer">
