@@ -20,6 +20,11 @@ Una aplicación web sencilla para generar paletas de colores aleatorias de 6, 8 
 - Descarga de la paleta como imagen PNG.
 - La imagen descargada contiene únicamente la tira de colores.
 
+
+### Github Page
+
+- Entrando desde este link ya podes usar la aplicacion:(https://verdun-juank.github.io/ProyectoM1_VerdunJuan/)
+
 ###  Cómo utilizar el proyecto
 
 
@@ -52,16 +57,17 @@ El tamaño de la imagen se adapta automáticamente según la cantidad de colores
 
 ## 📸 Capturas
 
+
 ### 💻 Versión de escritorio
 
-- Entrando desde este link ya podes usar la aplicacion:()
 
-![Generador de paletas - Escritorio](docs/img/image11.png)
+
+![Generador de paletas - Escritorio](docs/img/image12.png)
 - Simplemente selecciona a la cantidad de colores y generala
 
 ### 📱 Versión móvil
 
-![Generador de paletas - Móvil](docs/img/image12.png)
+![Generador de paletas - Móvil](docs/img/image11.png)
 
 
 
