@@ -78,7 +78,7 @@ function crearColor(color) {
     // Muestra del color
     const muestra = document.createElement("div");
 
-    muestra.classList.add("color__muestra");
+    muestra.classList.add("color_muestra");
 
     muestra.style.backgroundColor = color.rgba;
 
@@ -86,7 +86,7 @@ function crearColor(color) {
     // Información
     const informacion = document.createElement("div");
 
-    informacion.classList.add("color__informacion");
+    informacion.classList.add("color_informacion");
 
 
     // Código HSL
@@ -118,19 +118,19 @@ function crearCodigo(nombre, valor) {
 
     const contenedor = document.createElement("div");
 
-    contenedor.classList.add("color__codigo");
+    contenedor.classList.add("color_codigo");
 
 
     const texto = document.createElement("span");
 
-    texto.classList.add("color__texto");
+    texto.classList.add("color_texto");
 
     texto.textContent = `${nombre}: ${valor}`;
 
 
     const botonCopiar = document.createElement("button");
 
-    botonCopiar.classList.add("color__copiar");
+    botonCopiar.classList.add("color_copiar");
 
     botonCopiar.textContent = "Copiar";
 
